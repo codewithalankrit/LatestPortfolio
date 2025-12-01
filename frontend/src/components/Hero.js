@@ -50,7 +50,7 @@ const Hero = () => {
           <div className="relative inline-block">
             <div className="w-32 h-32 rounded-full bg-gradient-to-br from-cyan-400 to-blue-600 p-1 mb-8 mx-auto transform hover:scale-110 transition-transform duration-300">
               <img
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop&crop=face"
+                src="./image.png"
                 alt={mockPersonalInfo.name}
                 className="w-full h-full rounded-full object-cover"
               />
@@ -116,7 +116,7 @@ const Hero = () => {
               {platform === "linkedin" && "💼"}
               {platform === "github" && "🐙"}
               {platform === "dribbble" && "🏀"}
-              {platform === "twitter" && "🐦"}
+              {platform === "instagram" && "📸"}
             </a>
           ))}
         </div>

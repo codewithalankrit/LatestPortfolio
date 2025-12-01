@@ -44,7 +44,7 @@ const About = () => {
               <div className="relative group">
                 <div className="absolute inset-0 bg-gradient-to-r from-cyan-400 to-blue-600 rounded-lg transform rotate-6 group-hover:rotate-12 transition-transform duration-500"></div>
                 <img
-                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&h=600&fit=crop&crop=face"
+                  src="./pp.PNG"
                   alt={mockPersonalInfo.name}
                   className="relative w-full h-96 object-cover rounded-lg shadow-xl transform group-hover:scale-105 transition-transform duration-500"
                 />
@@ -85,7 +85,9 @@ const About = () => {
                   "JavaScript",
                   "TypeScript",
                   "Figma",
-                  "Python",
+                  "Photoshop",
+                  "Illustrator",
+                  "Wireframing",
                   "Design Systems",
                 ].map((tech) => (
                   <span

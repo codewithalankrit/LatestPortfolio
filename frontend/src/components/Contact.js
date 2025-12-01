@@ -125,7 +125,7 @@ const Contact = () => {
                       {platform === 'linkedin' && '💼'}
                       {platform === 'github' && '🐙'}
                       {platform === 'dribbble' && '🏀'}
-                      {platform === 'twitter' && '🐦'}
+                      {platform === 'instagram' && '📸'}
                     </a>
                   ))}
                 </div>

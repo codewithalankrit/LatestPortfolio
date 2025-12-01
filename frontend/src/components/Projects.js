@@ -29,9 +29,9 @@ const ProjectCard = ({ project, index }) => {
       ref={cardRef}
       className={`opacity-0 translate-y-10 transition-all duration-1000 ${
         index % 2 === 0 ? "delay-100" : "delay-300"
-      }`}
+      } h-full`}
     >
-      <div className="group relative bg-gray-800/50 backdrop-blur-sm rounded-xl border border-gray-700 overflow-hidden hover:border-cyan-400 transition-all duration-500 transform hover:scale-105">
+      <div className="group relative bg-gray-800/50 backdrop-blur-sm rounded-xl border border-gray-700 overflow-hidden hover:border-cyan-400 transition-all duration-500 transform hover:scale-105 h-full flex flex-col">
         <div className="relative overflow-hidden">
           <img
             src={project.images[0]}
@@ -47,7 +47,7 @@ const ProjectCard = ({ project, index }) => {
           )}
         </div>
 
-        <div className="p-6">
+        <div className="p-6 flex flex-col flex-1">
           <h3 className="text-xl font-bold text-white mb-2 group-hover:text-cyan-400 transition-colors duration-300">
             {project.title}
           </h3>
@@ -71,7 +71,7 @@ const ProjectCard = ({ project, index }) => {
             )}
           </div>
 
-          <div className="flex items-center justify-between">
+          <div className="mt-auto flex items-center justify-between">
             <Link
               to={`/project/${project.id}`}
               className="inline-flex items-center px-4 py-2 bg-gradient-to-r from-cyan-500 to-blue-600 text-white rounded-lg font-medium hover:from-cyan-400 hover:to-blue-500 transition-all duration-300 transform hover:scale-105"
