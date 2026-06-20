@@ -113,14 +113,13 @@ const Skills = () => {
                   key={tool.name}
                   className="flex flex-col items-center bg-gray-900/40 rounded-xl p-4 shadow-sm transition-transform duration-300 transform hover:scale-105 hover:border hover:border-cyan-400 hover:shadow-lg cursor-pointer"
                 >
-                  {tool.icon && tool.icon.startsWith("http") ? (
+                  {tool.icon &&
+                  (tool.icon.startsWith("http") || tool.icon.startsWith("/")) ? (
                     <img
                       src={tool.icon}
                       alt={tool.name}
                       className={`w-10 h-10 mb-2${
-                        ["Three.js", "Shadcn UI", "Photoshop"].includes(
-                          tool.name
-                        )
+                        ["Three.js", "Photoshop"].includes(tool.name)
                           ? " filter invert"
                           : ""
                       }`}
@@ -148,14 +147,13 @@ const Skills = () => {
                   key={tool.name}
                   className="bg-gray-900/40 rounded-xl py-4 px-2 flex flex-col items-center text-center font-semibold text-white text-base tracking-wide shadow-sm transition-transform duration-300 transform hover:scale-105 hover:border hover:border-cyan-400 hover:shadow-lg cursor-pointer"
                 >
-                  {tool.icon && tool.icon.startsWith("http") ? (
+                  {tool.icon &&
+                  (tool.icon.startsWith("http") || tool.icon.startsWith("/")) ? (
                     <img
                       src={tool.icon}
                       alt={tool.name}
                       className={`w-8 h-8 mb-2${
-                        ["Three.js", "Shadcn UI", "Photoshop"].includes(
-                          tool.name
-                        )
+                        ["Three.js", "Photoshop"].includes(tool.name)
                           ? " filter invert"
                           : ""
                       }`}

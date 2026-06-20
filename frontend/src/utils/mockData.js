@@ -7,16 +7,11 @@ export const mockProjects = [
     description:
       "CryptoExchange is your one-stop platform for real-time cryptocurrency tracking and conversion. Stay updated with the latest prices of major cryptocurrencies like Bitcoin, Ethereum, and many others. The sleek, user-friendly interface allows you to view detailed coin stats, market trends, and convert between cryptocurrencies and fiat in seconds. Whether you're a trader or a crypto enthusiast, CryptoExchange offers the tools you need to stay informed and make smart decisions — all in one place.",
     technologies: [
-      "React",
-      "TypeScript",
+      "JavaScript",
       "Vite",
-      "React Router",
       "Tailwind CSS",
-      "React Query",
       "shadcn UI",
       "Radix UI",
-      "Lucide React",
-      "React Hook Form",
       "Zod",
       "ESLint",
       "PostCSS",
@@ -33,22 +28,18 @@ export const mockProjects = [
     shortDescription:
       "Single‑page site for an architecture studio with smooth scrolling, animated sections, galleries, and basic routing.",
     description:
-      "Client project for RAID Studio (raidstudio.in). A modern single‑page website built with Vite, React 18, TypeScript, Tailwind CSS, and shadcn/ui (Radix UI primitives). It features smooth section scrolling, subtle animations, image gallery sections, and lightweight routing for legal pages and project details. The site emphasizes performance, accessibility, and a clean visual system driven by Tailwind tokens. Build is static and deploy‑ready for any CDN or static host.",
+      "Client project for RAID Studio (raidstudio.in). A modern single‑page website built with Vite, Tailwind CSS, and shadcn/ui (Radix UI primitives). It features smooth section scrolling, subtle animations, image gallery sections, and lightweight routing for legal pages and project details. The site emphasizes performance, accessibility, and a clean visual system driven by Tailwind tokens. Build is static and deploy‑ready for any CDN or static host.",
     technologies: [
-      "React 18",
-      "TypeScript",
+      "JavaScript",
       "Vite 5",
       "Tailwind CSS",
       "shadcn UI",
       "Radix UI",
-      "React Router",
       "ESLint",
       "PostCSS",
       "Autoprefixer",
       "Recharts",
       "three.js",
-      "@react-three/fiber",
-      "@react-three/drei",
     ],
     images: ["/RaidStudio.PNG"],
     liveLink: "https://raidstudio.in",
@@ -62,17 +53,15 @@ export const mockProjects = [
     shortDescription:
       "Full-stack premium content platform with JWT auth, role-based access, and subscription billing via Razorpay.",
     description:
-      'Faith by Experiments is a full-stack premium content platform built around the idea of "faith as a hypothesis worth testing." It provides a secure membership experience with JWT authentication, role-based admin access, and subscription billing (monthly/yearly) via Razorpay. Users can sign up, log in, reset passwords, and view locked premium posts with previews, while admins can manage premium content through an admin workflow. The backend is built with FastAPI and connects to MongoDB Atlas, and the frontend is a responsive React + Tailwind CSS interface with a modern component system.',
+      'Faith by Experiments is a full-stack premium content platform built around the idea of "faith as a hypothesis worth testing." It provides a secure membership experience with JWT authentication, role-based admin access, and subscription billing (monthly/yearly) via Razorpay. Users can sign up, log in, reset passwords, and view locked premium posts with previews, while admins can manage premium content through an admin workflow. The backend is built with FastAPI and connects to MongoDB Atlas, and the frontend is a responsive Tailwind CSS interface with a modern component system.',
     technologies: [
-      "React 19",
-      "React Router DOM",
+      "JavaScript",
       "Tailwind CSS",
       "CRACO",
       "Axios",
       "Radix UI",
-      "React Hook Form",
       "Zod",
-      "Lucide React",
+      "Lucide",
       "FastAPI",
       "Uvicorn",
       "MongoDB Atlas",
@@ -109,7 +98,7 @@ export const mockProjects = [
       "A sleek and responsive Nintendo UI clone that captures the nostalgic and modern feel of the Nintendo ecosystem.",
     description:
       "This project is a visually rich and interactive Nintendo UI concept designed to replicate the look and feel of Nintendo's user interface. It features smooth animations, a card-based layout, and responsive design, offering users a taste of how a modern Nintendo dashboard might look on the web. Whether you're exploring for design inspiration or evaluating frontend skills, this project showcases attention to UI detail, layout design, and polished styling — a creative take on blending nostalgia with modern web standards.",
-    technologies: ["React", "Javascript", "Tailwind CSS", "Node.js", "Vite"],
+    technologies: ["Javascript", "Tailwind CSS", "Node.js", "Vite"],
     images: ["/StardewValley.PNG"],
     liveLink: "https://codewithalankrit.github.io/Nintendo_UI/",
     githubLink: "https://github.com/codewithalankrit/Nintendo_UI",
@@ -123,13 +112,11 @@ export const mockProjects = [
     description:
       "EventMaster is a modern, user-friendly frontend for a comprehensive event management platform designed to simplify the entire event planning process. Whether it's a wedding, corporate retreat, or birthday party, EventMaster provides everything you need to plan and manage events with confidence. The platform features a powerful dashboard, real-time budget tracking, RSVP and guest management, smart planning tools, vendor network integration, and advanced analytics. With clean UI/UX, responsive design, and clear visual feedback, it's ideal for planners and organizations of all sizes.",
     technologies: [
-      "React",
+      "JavaScript",
       "Tailwind CSS",
       "Radix UI",
-      "React Router",
-      "React Hook",
       "Zod",
-      "Lucide React",
+      "Lucide",
       "Craco",
     ],
     images: ["/EventMaster.PNG"],
@@ -149,7 +136,6 @@ export const mockProjects = [
       "CSS3",
       "JavaScript",
       "Tailwind CSS",
-      "React",
       "Vite",
       "Responsive Design",
       "Modern UI/UX Principles",
@@ -166,11 +152,6 @@ export const mockSkills = [
   {
     category: "Frontend",
     skills: [
-      { name: "React", icon: "⚛️" },
-      {
-        name: "TypeScript",
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
-      },
       {
         name: "JavaScript",
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
@@ -190,7 +171,7 @@ export const mockSkills = [
       },
       {
         name: "Shadcn UI",
-        icon: "https://raw.githubusercontent.com/shadcn/ui/main/apps/www/public/apple-touch-icon.png",
+        icon: "/shadcn-ui.png",
       },
     ],
   },
@@ -223,12 +204,12 @@ export const mockSkills = [
 
 export const mockPersonalInfo = {
   name: "Alankrit Aggarwal",
-  title: "UI/UX Designer & Frontend Developer",
+  title: "UI/UX Designer & Web Designer",
   email: "codewithalankrit@gmail.com",
   phone: "+91 99586 27696",
   location: "Noida, India",
-  bio: "Passionate UI/UX designer and frontend developer with a love for creating beautiful, functional, and user-centered digital experiences. I specialize in modern web technologies and have a keen eye for design details.",
-  resumeUrl: "/LatestResume.png",
+  bio: "Passionate UI/UX designer and web designer with a love for creating beautiful, functional, and user-centered digital experiences. I specialize in modern web technologies and have a keen eye for design details.",
+  resumeUrl: "/UIUXResume.pdf",
   social: {
     linkedin: "https://www.linkedin.com/in/alankrit-aggarwal-b2968122a/",
     github: "https://github.com/codewithalankrit",

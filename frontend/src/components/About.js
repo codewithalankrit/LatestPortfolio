@@ -13,7 +13,7 @@ const About = () => {
           }
         });
       },
-      { threshold: 0.1 }
+      { threshold: 0.1 },
     );
 
     if (aboutRef.current) {
@@ -81,12 +81,12 @@ const About = () => {
 
               <div className="flex flex-wrap gap-3 mt-8">
                 {[
-                  "React",
+                  "HTML",
+                  "CSS",
                   "JavaScript",
-                  "TypeScript",
+                  "Tailwind CSS",
                   "Figma",
                   "Photoshop",
-                  "Illustrator",
                   "Wireframing",
                   "Design Systems",
                 ].map((tech) => (
